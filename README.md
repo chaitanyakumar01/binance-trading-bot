@@ -26,14 +26,16 @@ This ensures the core logic—CLI argument parsing, input validation, execution 
    ```bash
    cd binance_bot_task
 
-2. **Create and activate a virtual environment:**
+2. Create and activate a virtual environment:
     python -m venv venv
     source venv/bin/activate
 
-3. **Install dependencies:**
+3. Install dependencies:
     pip install python-binance python-dotenv
 
-** Usage **    
+
+   
+ Usage    
     For MARKET Orders:
     python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.01
 
